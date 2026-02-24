@@ -16,7 +16,7 @@ import rewards.internal.reward.RewardRepository;
 import javax.sql.DataSource;
 
 /**
- * TODO-00: In this lab, you are going to exercise the following:
+ * In this lab, you are going to exercise the following:
  * - Creating Spring configuration class
  * - Defining bean definitions within the configuration class
  * - Specifying the dependency relationships among beans
@@ -24,10 +24,10 @@ import javax.sql.DataSource;
  * - Creating Spring application context in the test code
  *   (WITHOUT using Spring testContext framework)
  *
- * TODO-01: Make this class a Spring configuration class
+ * Make this class a Spring configuration class
  * - Use an appropriate annotation.
  *
- * TODO-02: Define four empty @Bean methods, one for the
+ * Define four empty @Bean methods, one for the
  *          reward-network and three for the repositories.
  * - The names of the beans should be:
  *   - rewardNetwork
@@ -35,7 +35,7 @@ import javax.sql.DataSource;
  *   - restaurantRepository
  *   - rewardRepository
  *
- * TODO-03: Inject DataSource through constructor injection
+ * Inject DataSource through constructor injection
  * - Each repository implementation has a DataSource
  *   property to be set, but the DataSource is defined
  *   elsewhere (TestInfrastructureConfig.java), so you
@@ -43,7 +43,7 @@ import javax.sql.DataSource;
  *   that accepts a DataSource parameter.
  * - As it is the only constructor, @Autowired is optional.
  *
- * TODO-04: Implement each @Bean method to contain the code
+ * Implement each @Bean method to contain the code
  *          needed to instantiate its object and set its
  *          dependencies
  * - You can create beans from the following implementation classes

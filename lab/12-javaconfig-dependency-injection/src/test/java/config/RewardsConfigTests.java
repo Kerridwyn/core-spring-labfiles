@@ -26,7 +26,7 @@ public class RewardsConfigTests {
 	// Provide a mock object for testing
 	private DataSource dataSource = Mockito.mock(DataSource.class);
 
-	// TODO-05: Run the test
+	// Run the test
 	// - Uncomment the code below between /* and */
 	// - If you have implemented RewardsConfig as requested it should compile.
 	// - Fix RewardsConfig if necessary.
